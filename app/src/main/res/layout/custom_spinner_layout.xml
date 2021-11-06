@@ -8,11 +8,11 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5" />
+        android:layout_weight="15" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="90"
         android:orientation="horizontal">
 
@@ -20,34 +20,41 @@
             android:id="@+id/flag"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="35"
+            android:layout_weight="17"
             android:gravity="left" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7" />
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="40"
+            android:layout_weight="45"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/country"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="30"
-                android:gravity="left" />
+                android:layout_weight="85"
+                android:gravity="left"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/capital"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="20"
-                android:gravity="left" />
+                android:layout_weight="60"
+                android:gravity="right"
+                android:textSize="10sp" />
         </LinearLayout>
     </LinearLayout>
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5" />
+        android:layout_weight="20" />
 
 </LinearLayout>

@@ -18,11 +18,11 @@ public class Country {
     @Override
     public String toString() {
         return
-                "Name: " + name + "\n\n\n\n" +
-                "Capital City: " + capitalCity + "\n\n\n\n" +
-                "Anthem: " + anthem + "\n\n\n\n" +
-                "Population Size: " + population_size + "\n\n\n\n" +
-                "Language: " + language + "\n\n\n\n";
+                "Name: " + "\n" + name + "\n\n\n" +
+                        "Capital City : " + "\n" + capitalCity + "\n\n\n" +
+                        "Anthem : " + "\n" + anthem + "\n\n\n" +
+                        "Population Size : " + "\n" + population_size + "\n\n\n" +
+                        "Language : " + "\n" + language + "\n\n\n";
     }
 }
 
