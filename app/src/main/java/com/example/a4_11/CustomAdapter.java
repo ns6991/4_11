@@ -21,7 +21,6 @@ public class CustomAdapter extends BaseAdapter {
         this.capitalList = capitalList;
         this.flags = flags;
         inflter = (LayoutInflater.from(applicationContext));
-
     }
 
     @Override
